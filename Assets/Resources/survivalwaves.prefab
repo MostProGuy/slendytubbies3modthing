@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1648355877757031}
+  m_IsPrefabParent: 1
+--- !u!1 &1648355877757031
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4190262246160689}
+  - component: {fileID: 114454723013350117}
+  m_Layer: 0
+  m_Name: SurvivalWaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4190262246160689
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648355877757031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114454723013350117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648355877757031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a617d7b689a494ca3e207fba42a8f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  PAGEHOLHMHC: 0
+  MDKJKFCOJGE:
+  - totalCount: 5
+    defaultNPC: Newborn_Bot
+    NPC: []
+    music: {fileID: 8300000, guid: 4f7a14aa5feb37e4fa8e6fedfcfaf5fc, type: 3}
+  - totalCount: 10
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 5
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 037213df2182cde44b03a180aba80a6d, type: 3}
+  - totalCount: 20
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 10
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 47178e8aa0092554caf46c658c3367ff, type: 3}
+  - totalCount: 25
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 10
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: BossRunner
+      spawnChance: 1
+      maxSpawn: 1
+      isBoss: 1
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 9b06ccdf489a9974cbd1a3765d3e4f0b, type: 3}
+  - totalCount: 30
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 8
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 4c7607072310e1a448c6fad81ac779a1, type: 3}
+  - totalCount: 35
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 8
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Tall_Bot
+      spawnChance: 15
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: BossSecurity
+      spawnChance: 1
+      maxSpawn: 1
+      isBoss: 1
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: d3d4c426aae49db44b84f7d26eca04e2, type: 3}
+  - totalCount: 40
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 8
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Tall_Bot
+      spawnChance: 20
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Security_Bot
+      spawnChance: 15
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: c969921321db200419ade12be0b6204b, type: 3}
+  - totalCount: 45
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 8
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Tall_Bot
+      spawnChance: 12
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Security_Bot
+      spawnChance: 20
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Newborn_Beserker_Bot
+      spawnChance: 20
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: BossBeserker
+      spawnChance: 1
+      maxSpawn: 1
+      isBoss: 1
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 55c4144a5619b1d4c82e864f343063f2, type: 3}
+  - totalCount: 50
+    defaultNPC: NewBorn_Bot
+    NPC:
+    - npcName: NewBorn_Runner_Bot
+      spawnChance: 6
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Crawler_Droid_Bot
+      spawnChance: 8
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Ranged_Bot
+      spawnChance: 11
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: NewBorn_Tall_Bot
+      spawnChance: 12
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Security_Bot
+      spawnChance: 20
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    - npcName: Newborn_Beserker_Bot
+      spawnChance: 15
+      maxSpawn: 5
+      isBoss: 0
+      bossHasSpawned: 0
+    music: {fileID: 8300000, guid: 3e85b74ee91692a4c892c65e02ec9a04, type: 3}
+  COHAANEIGIM:
+    totalCount: 5
+    defaultNPC: Newborn_Bot
+    NPC: []
+    music: {fileID: 0}
+  BGEFGFBOJKF: {fileID: 114731951612252864, guid: f3131c3a9152f98498b02f273a413714, type: 2}
+  NMOHLIAHHDP: {fileID: 11400000, guid: 46ff36c57844d174bbf4ebd58863739a, type: 2}
+  LIBIJNOONHG: 0
+  FCMIHIHPEFO: []
+  LJGHEKKGNHK: 0
+  PMKMNCGKPKG: {fileID: 0}
+  GDPAFHGOECB: 0
+  NMGNFCHGIIE: {fileID: 0}

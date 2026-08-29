@@ -1,0 +1,5011 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1574653457895932}
+  m_IsPrefabParent: 1
+--- !u!1 &1574653457895932
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4916813668619102}
+  - component: {fileID: 114540097311440327}
+  - component: {fileID: 114978661202313050}
+  m_Layer: 0
+  m_Name: Sandbox
+  m_TagString: Sandbox
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4916813668619102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1574653457895932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224999201316168129}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114540097311440327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1574653457895932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00230c615e5b39447a111cec4cee3f26, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  DIKLLBODDLB: 0
+  OBIDOEGFFEK:
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 67004400550046005a0014007500780014001c0071005f00510059004d001800
+      inited: 1
+      fakeValue: Spawn AI (Enemy)
+      fakeValueActive: 1
+    teamID: 1
+    tagName: monster
+    isPlayAs: 0
+    isWeapon: 0
+    hostOnly: 0
+    isMusic: 0
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a00
+        inited: 1
+        fakeValue: Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 94b48d0d985ba7841b44c13e47ba38c2, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e0076005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100660041005a005f0051004600
+        inited: 1
+        fakeValue: Newborn Runner
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 62a92c1496211ce4f8c02f108f00c50d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00660041005a005f00510046006b0073005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Runner_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670044005d005500510046001400750046005b005d005500
+        inited: 1
+        fakeValue: Spider Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 46c977c426f91e34fbbe907c2c594796, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0077004600550046005800510046006e00700046005b00580050006b0076005e004000
+        inited: 1
+        fakeValue: SUR/Crawler_Droid_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660055005a0056005100500014007f005100430056005e0046005a00
+        inited: 1
+        fakeValue: Ranged Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 4368c8eebfc5c72409ee8cd5d1b46610, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00660055005a005600510050006b0073005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Ranged_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c00550055005b00430014007f005100430056005e0046005a00
+        inited: 1
+        fakeValue: Shadow Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: aa0de6b339497c84688e0c859463b089, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e006000550058005d006b0076005b004500
+        inited: 1
+        fakeValue: SUR/NewBorn_Tall_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670051005700440046005d00400048001400700046005e005d005000
+        inited: 1
+        fakeValue: Security Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 463ee6a2954998a4ab49b2317596cfbe, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e00670051005700440046005d00400048006b0076005b004500
+        inited: 1
+        fakeValue: SUR/Security_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a0011007600510046004200510046005f0054004600
+        inited: 1
+        fakeValue: Newborn Berserker
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 5081e9d6798c0dc4bbb6be9044172c33, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00760051004700540046005f00510043006b0076005b004500
+        inited: 1
+        fakeValue: SUR/NewBorn_Beserker_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100670055004600560051005a004000
+        inited: 1
+        fakeValue: Newborn Sargent
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 26c085bab87b61843ae6da7a760d1ab8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200660041005a005f0051004600
+        inited: 1
+        fakeValue: SUR/BossRunner
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7c005100550047004d00140067005400570041004600580040004d001400750046005b005d005500
+        inited: 1
+        fakeValue: Heavy Security Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 5623a65e6eb069940b993d56022a7d85, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200670051005700440046005d0040004800
+        inited: 1
+        fakeValue: SUR/BossSecurity
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100730051005a005400460055005800
+        inited: 1
+        fakeValue: Newborn General
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 8760d1c84984d8443b6a72531a1eaa6a, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200760051004700540046005f0051004300
+        inited: 1
+        fakeValue: SUR/BossBeserker
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7700550042005400140079005b005f004700400051004300
+        inited: 1
+        fakeValue: Cave Monster
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 137b02e8c001bd941a1c6c6b7d8bc582, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007700550042005400
+        inited: 1
+        fakeValue: SUR/BossCave
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c0051001100790055004700450051004600
+        inited: 1
+        fakeValue: The Master
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 504136727b077d4498b73ea98a879d2b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420079005b0041005f00400055005d005f004700
+        inited: 1
+        fakeValue: SUR/BossMountains
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7500460046005e004300140079005e005a004700400054004600
+        inited: 1
+        fakeValue: Arrow Monster
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: c628e8505dfd29749a0d35f5d6b6b7fb, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007b00460055005f005300510060004400560056004d00
+        inited: 1
+        fakeValue: SUR/BossOrangeTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 730041005500430050005d0055005f0014007d005a00570051005700400054005000
+        inited: 1
+        fakeValue: Guardian Infected
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 179af61c7a251284b991af3d3330843c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420063005c005d004500510060004100530056004d00
+        inited: 1
+        fakeValue: SUR/BossWhiteTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 730041005500430050005d0055005f0014007700460050004300580051004300
+        inited: 1
+        fakeValue: Guardian Crawler
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 0f944fd5c7a12d44bab8184a98319d3b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007700460055004600580051004600
+        inited: 1
+        fakeValue: SUR/BossCrawler
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 76004600410045005100
+        inited: 1
+        fakeValue: Brute
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: d584f218970432547bd03677c24801a5, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420076004600410045005100
+        inited: 1
+        fakeValue: SUR/BossBrute
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 73005c005b004200400014007300580046005800
+        inited: 1
+        fakeValue: Ghost Girl
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: fbb11c5f70e3f394c8cb0210176d1ecf, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420073005c005b004200400073005d0043005800
+        inited: 1
+        fakeValue: SUR/BossGhostGirl
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c00550055005b004300
+        inited: 1
+        fakeValue: Shadow
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 548a205bef7ac4a4c8854faa52e17801, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420067005c00550055005b004300
+        inited: 1
+        fakeValue: SUR/BossShadow
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75005a005a005e0041005a00570054004600
+        inited: 1
+        fakeValue: Announcer
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ed87689a683f2ac47b8255f1d728f49c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420075005a005a005e0041005a00570054004600
+        inited: 1
+        fakeValue: SUR/BossAnnouncer
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140064005900550047005100110017000500
+        inited: 1
+        fakeValue: Tinky Phase #1
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 74df3f24e8d842540a19ac59c185a9e4, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420060005d005a005a004d00
+        inited: 1
+        fakeValue: SUR/BossTinky
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140064005900550047005100110017000600
+        inited: 1
+        fakeValue: Tinky Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ac30569178d7a734fb1eac0e4472cd06, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200600055005a005a00
+        inited: 1
+        fakeValue: SUR/BossTank
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000600
+        inited: 1
+        fakeValue: Po Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: e7e4236009e7be848895326fc8fc7c3c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b00
+        inited: 1
+        fakeValue: SUR/BossPo
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000700
+        inited: 1
+        fakeValue: Po Phase #3
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 29c14712174eb9f479db3ed9ef1ef8e8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b007900440040005500400054005000
+        inited: 1
+        fakeValue: SUR/BossPoMutated
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7c005100550055005800510047004200140070005d00410047004d00
+        inited: 1
+        fakeValue: Headless Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 3c02afdd1ea894744bd67d6da31a14de, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007c00510055005500580051004700420070005d00440042004d00
+        inited: 1
+        fakeValue: SUR/BossHeadlessDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 780055005f005400140070005d00410047004d00
+        inited: 1
+        fakeValue: Lake Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 49ebf54266e648643ab1ef21b2605b56, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420070005d00440042004d00
+        inited: 1
+        fakeValue: SUR/BossDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7800550055001100780055005500110064005c00550042005100140017000300
+        inited: 1
+        fakeValue: Laa Laa Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 2e7ae153181d2f14d839643fd409650e, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007800550055007d0055005500
+        inited: 1
+        fakeValue: SUR/BossLaaLaa
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000500
+        inited: 1
+        fakeValue: Po Phase #1
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 24a947ff066585e4185d2f6fb6eff3ce, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b00640059005500470051000000
+        inited: 1
+        fakeValue: SUR/BossPoPhase1
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005b00580055005d0051004600
+        inited: 1
+        fakeValue: Soldier
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 1282d0b51e17d9f4ca8cedd0cd8f0adf, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0067005b00580055005d00510046006e00660055005a005600510050006b0073005b004000
+        inited: 1
+        fakeValue: SUR/Soldier_Ranged_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 63005b0046005a0051004600
+        inited: 1
+        fakeValue: Worker
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 06ea792c4b4a65c4f838b3f6dcd3f06a, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0063005b0046005a00510046006b0073005b004000
+        inited: 1
+        fakeValue: SUR/Worker_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 66005b005a00
+        inited: 1
+        fakeValue: Ron
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 66e4ad7a57f34b143a2f93055f75ed72, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420066005b005a00
+        inited: 1
+        fakeValue: SUR/BossRon
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d00590044005e004700400051004300
+        inited: 1
+        fakeValue: Imposter
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 1b294c6e5f9392c4ba826d78ad0e218d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007d00590044005e004700400051004300
+        inited: 1
+        fakeValue: SUR/BossImposter
+        fakeValueActive: 1
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 67004400550046005a0014007500780014001c0075005d0058004d001d00
+      inited: 1
+      fakeValue: Spawn AI (Ally)
+      fakeValueActive: 1
+    teamID: 0
+    tagName: monster
+    isPlayAs: 0
+    isWeapon: 0
+    hostOnly: 0
+    isMusic: 0
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a00
+        inited: 1
+        fakeValue: Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 94b48d0d985ba7841b44c13e47ba38c2, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e0076005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100660041005a005f0051004600
+        inited: 1
+        fakeValue: Newborn Runner
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 62a92c1496211ce4f8c02f108f00c50d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00660041005a005f00510046006b0073005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Runner_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670044005d005500510046001400750046005b005d005500
+        inited: 1
+        fakeValue: Spider Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 46c977c426f91e34fbbe907c2c594796, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0077004600550046005800510046006e00700046005b00580050006b0076005e004000
+        inited: 1
+        fakeValue: SUR/Crawler_Droid_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660055005a0056005100500014007f005100430056005e0046005a00
+        inited: 1
+        fakeValue: Ranged Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 4368c8eebfc5c72409ee8cd5d1b46610, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00660055005a005600510050006b0073005b004000
+        inited: 1
+        fakeValue: SUR/NewBorn_Ranged_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c00550055005b00430014007f005100430056005e0046005a00
+        inited: 1
+        fakeValue: Shadow Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: aa0de6b339497c84688e0c859463b089, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e006000550058005d006b0076005b004500
+        inited: 1
+        fakeValue: SUR/NewBorn_Tall_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670051005700440046005d00400048001400700046005e005d005000
+        inited: 1
+        fakeValue: Security Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 463ee6a2954998a4ab49b2317596cfbe, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e00670051005700440046005d00400048006b0076005b004500
+        inited: 1
+        fakeValue: SUR/Security_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a0011007600510046004200510046005f0054004600
+        inited: 1
+        fakeValue: Newborn Berserker
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 5081e9d6798c0dc4bbb6be9044172c33, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e007a005100430073005b0046005a006e00760051004700540046005f00510043006b0076005b004500
+        inited: 1
+        fakeValue: SUR/NewBorn_Beserker_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100670055004600560051005a004000
+        inited: 1
+        fakeValue: Newborn Sargent
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 26c085bab87b61843ae6da7a760d1ab8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200660041005a005f0051004600
+        inited: 1
+        fakeValue: SUR/BossRunner
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7c005100550047004d00140067005400570041004600580040004d001400750046005b005d005500
+        inited: 1
+        fakeValue: Heavy Security Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 5623a65e6eb069940b993d56022a7d85, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200670051005700440046005d0040004800
+        inited: 1
+        fakeValue: SUR/BossSecurity
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100730051005a005400460055005800
+        inited: 1
+        fakeValue: Newborn General
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 8760d1c84984d8443b6a72531a1eaa6a, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200760051004700540046005f0051004300
+        inited: 1
+        fakeValue: SUR/BossBeserker
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7700550042005400140079005b005f004700400051004300
+        inited: 1
+        fakeValue: Cave Monster
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 137b02e8c001bd941a1c6c6b7d8bc582, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007700550042005400
+        inited: 1
+        fakeValue: SUR/BossCave
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c0051001100790055004700450051004600
+        inited: 1
+        fakeValue: The Master
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 504136727b077d4498b73ea98a879d2b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420079005b0041005f00400055005d005f004700
+        inited: 1
+        fakeValue: SUR/BossMountains
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7500460046005e004300140079005e005a004700400054004600
+        inited: 1
+        fakeValue: Arrow Monster
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: c628e8505dfd29749a0d35f5d6b6b7fb, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007b00460055005f005300510060004400560056004d00
+        inited: 1
+        fakeValue: SUR/BossOrangeTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 730041005500430050005d0055005f0014007d005a00570051005700400054005000
+        inited: 1
+        fakeValue: Guardian Infected
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 179af61c7a251284b991af3d3330843c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420063005c005d004500510060004100530056004d00
+        inited: 1
+        fakeValue: SUR/BossWhiteTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 730041005500430050005d0055005f0014007700460050004300580051004300
+        inited: 1
+        fakeValue: Guardian Crawler
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 0f944fd5c7a12d44bab8184a98319d3b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007700460055004600580051004600
+        inited: 1
+        fakeValue: SUR/BossCrawler
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 76004600410045005100
+        inited: 1
+        fakeValue: Brute
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: d584f218970432547bd03677c24801a5, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420076004600410045005100
+        inited: 1
+        fakeValue: SUR/BossBrute
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 73005c005b004200400014007300580046005800
+        inited: 1
+        fakeValue: Ghost Girl
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: fbb11c5f70e3f394c8cb0210176d1ecf, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420073005c005b004200400073005d0043005800
+        inited: 1
+        fakeValue: SUR/BossGhostGirl
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c00550055005b004300
+        inited: 1
+        fakeValue: Shadow
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 548a205bef7ac4a4c8854faa52e17801, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420067005c00550055005b004300
+        inited: 1
+        fakeValue: SUR/BossShadow
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75005a005a005e0041005a00570054004600
+        inited: 1
+        fakeValue: Announcer
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ed87689a683f2ac47b8255f1d728f49c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420075005a005a005e0041005a00570054004600
+        inited: 1
+        fakeValue: SUR/BossAnnouncer
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140064005900550047005100110017000500
+        inited: 1
+        fakeValue: Tinky Phase #1
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 74df3f24e8d842540a19ac59c185a9e4, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420060005d005a005a004d00
+        inited: 1
+        fakeValue: SUR/BossTinky
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140064005900550047005100110017000600
+        inited: 1
+        fakeValue: Tinky Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ac30569178d7a734fb1eac0e4472cd06, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b0047004200600055005a005a00
+        inited: 1
+        fakeValue: SUR/BossTank
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000600
+        inited: 1
+        fakeValue: Po Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: e7e4236009e7be848895326fc8fc7c3c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b00
+        inited: 1
+        fakeValue: SUR/BossPo
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000700
+        inited: 1
+        fakeValue: Po Phase #3
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 29c14712174eb9f479db3ed9ef1ef8e8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b007900440040005500400054005000
+        inited: 1
+        fakeValue: SUR/BossPoMutated
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7c005100550055005800510047004200140070005d00410047004d00
+        inited: 1
+        fakeValue: Headless Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 3c02afdd1ea894744bd67d6da31a14de, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007c00510055005500580051004700420070005d00440042004d00
+        inited: 1
+        fakeValue: SUR/BossHeadlessDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 780055005f005400140070005d00410047004d00
+        inited: 1
+        fakeValue: Lake Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 49ebf54266e648643ab1ef21b2605b56, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420070005d00440042004d00
+        inited: 1
+        fakeValue: SUR/BossDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7800550055001100780055005500110064005c00550042005100140017000300
+        inited: 1
+        fakeValue: Laa Laa Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 2e7ae153181d2f14d839643fd409650e, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007800550055007d0055005500
+        inited: 1
+        fakeValue: SUR/BossLaaLaa
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000500
+        inited: 1
+        fakeValue: Po Phase #1
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 24a947ff066585e4185d2f6fb6eff3ce, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420064005b00640059005500470051000000
+        inited: 1
+        fakeValue: SUR/BossPoPhase1
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005b00580055005d0051004600
+        inited: 1
+        fakeValue: Soldier
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 1282d0b51e17d9f4ca8cedd0cd8f0adf, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0067005b00580055005d00510046006e00660055005a005600510050006b0073005b004000
+        inited: 1
+        fakeValue: SUR/Soldier_Ranged_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 63005b0046005a0051004600
+        inited: 1
+        fakeValue: Worker
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 06ea792c4b4a65c4f838b3f6dcd3f06a, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0063005b0046005a00510046006b0073005b004000
+        inited: 1
+        fakeValue: SUR/Worker_Bot
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 66005b005a00
+        inited: 1
+        fakeValue: Ron
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 66e4ad7a57f34b143a2f93055f75ed72, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b004700420066005b005a00
+        inited: 1
+        fakeValue: SUR/BossRon
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d00590044005e004700400051004300
+        inited: 1
+        fakeValue: Imposter
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 1b294c6e5f9392c4ba826d78ad0e218d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 6700610066001e0076005b00470042007d00590044005e004700400051004300
+        inited: 1
+        fakeValue: SUR/BossImposter
+        fakeValueActive: 1
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 64005800550048001400750047001f001a001a00
+      inited: 1
+      fakeValue: Play As...
+      fakeValueActive: 1
+    teamID: 0
+    tagName: monster
+    isPlayAs: 1
+    isWeapon: 0
+    hostOnly: 0
+    isMusic: 0
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6d005b004100
+        inited: 1
+        fakeValue: You
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ec4c011a731cb054e9e1ee27272ef602, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100400046005b0046005f006100580055004d0054004600
+        inited: 1
+        fakeValue: NetworkPlayer
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 720058004d001100770055005900
+        inited: 1
+        fakeValue: Fly Cam
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 17bf383eeffecb74a81259abab920103, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 720058004d00720055005900
+        inited: 1
+        fakeValue: FlyCam
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d005a005200540057004000510055001400730041005000460050005d0050005a00
+        inited: 1
+        fakeValue: Infected Guardian
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 179af61c7a251284b991af3d3330843c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460063005c0058004000510060004400560056004d00
+        inited: 1
+        fakeValue: VS/PlayerWhiteTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00
+        inited: 1
+        fakeValue: Tinky
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 74df3f24e8d842540a19ac59c185a9e4, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460060005d005f005f004d00
+        inited: 1
+        fakeValue: VS/PlayerTinky
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140064005900550047005100110017000600
+        inited: 1
+        fakeValue: Tinky Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ac30569178d7a734fb1eac0e4472cd06, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600600055005f005f00
+        inited: 1
+        fakeValue: VS/PlayerTank
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c00550055005b004300
+        inited: 1
+        fakeValue: Shadow
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 548a205bef7ac4a4c8854faa52e17801, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460067005c00500050005b00430065004100560056004800
+        inited: 1
+        fakeValue: VS/PlayerShadowTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000600
+        inited: 1
+        fakeValue: Po Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: e7e4236009e7be848895326fc8fc7c3c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460064005b00
+        inited: 1
+        fakeValue: VS/PlayerPo
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000700
+        inited: 1
+        fakeValue: Po Phase #3
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 29c14712174eb9f479db3ed9ef1ef8e8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460064005b007c00410040005500450051005000
+        inited: 1
+        fakeValue: VS/PlayerPoMutated
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7b00460055005f0053005100
+        inited: 1
+        fakeValue: Orange
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: c628e8505dfd29749a0d35f5d6b6b7fb, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d00540046007b00460050005a005300510065004100560056004800
+        inited: 1
+        fakeValue: VS/PlayerOrangeTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a00
+        inited: 1
+        fakeValue: Newborn
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 94b48d0d985ba7841b44c13e47ba38c2, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d00540046007a005100460076005b0046005f00
+        inited: 1
+        fakeValue: VS/PlayerNewBorn
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c0051001100790055004700450051004600
+        inited: 1
+        fakeValue: The Master
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 504136727b077d4498b73ea98a879d2b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460079005b0044005a004000550058005a0060004100530056004d00
+        inited: 1
+        fakeValue: VS/PlayerMountainTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7800550055001100780055005500110064005c00550042005100140017000300
+        inited: 1
+        fakeValue: Laa Laa Phase #2
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 2e7ae153181d2f14d839643fd409650e, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600780055005000780055005500
+        inited: 1
+        fakeValue: VS/PlayerLaaLaa
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7c005100550055005800510047004200140070005d00410047004d00
+        inited: 1
+        fakeValue: Headless Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 3c02afdd1ea894744bd67d6da31a14de, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d00540046007c00510050005000580051004200470070005d00410047004d00
+        inited: 1
+        fakeValue: VS/PlayerHeadlessDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 780055005f005400140070005d00410047004d00
+        inited: 1
+        fakeValue: Lake Dipsy
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 49ebf54266e648643ab1ef21b2605b56, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460070005d00410047004d00
+        inited: 1
+        fakeValue: VS/PlayerDipsy
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 73005c005b004200400014007300580046005800
+        inited: 1
+        fakeValue: Ghost Girl
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: fbb11c5f70e3f394c8cb0210176d1ecf, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460073005c005e00470040007300580046005800
+        inited: 1
+        fakeValue: VS/PlayerGhostGirl
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7700460055004600580051004600
+        inited: 1
+        fakeValue: Crawler
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 0f944fd5c7a12d44bab8184a98319d3b, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d00540046007700460050004300580051004300
+        inited: 1
+        fakeValue: VS/PlayerCrawler
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7700550042005400
+        inited: 1
+        fakeValue: Cave
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 137b02e8c001bd941a1c6c6b7d8bc582, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600770055004700510060004100530056004d00
+        inited: 1
+        fakeValue: VS/PlayerCaveTubby
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 76004600410045005100
+        inited: 1
+        fakeValue: Brute
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: d584f218970432547bd03677c24801a5, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460076004600440040005100
+        inited: 1
+        fakeValue: VS/PlayerBrute
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75005a005a005e0041005a00570054004600
+        inited: 1
+        fakeValue: Announcer
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 5623a65e6eb069940b993d56022a7d85, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460075005a005f005b0041005a00520051004600
+        inited: 1
+        fakeValue: VS/PlayerAnnouncer
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 64005b00140061005c00550047005400140017000500
+        inited: 1
+        fakeValue: Po Phase #1
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 24a947ff066585e4185d2f6fb6eff3ce, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460064005b0061005c005500470054000500
+        inited: 1
+        fakeValue: VS/PlayerPoPhase1
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660041005a005f0051004600
+        inited: 1
+        fakeValue: Runner
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 26c085bab87b61843ae6da7a760d1ab8, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600660041005f005a0051004600
+        inited: 1
+        fakeValue: VS/PlayerRunner
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 730051005a005400460055005800
+        inited: 1
+        fakeValue: General
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 8760d1c84984d8443b6a72531a1eaa6a, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600730051005f005100460055005d00
+        inited: 1
+        fakeValue: VS/PlayerGeneral
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75005a005a005e0041005a005700540046001400760058005300
+        inited: 1
+        fakeValue: Announcer Big
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: ed87689a683f2ac47b8255f1d728f49c, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460075005a005f005b0041005a00520051004600760058005300
+        inited: 1
+        fakeValue: VS/PlayerAnnouncerBig
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670051005700440046005d00400048001400700046005e005d005000
+        inited: 1
+        fakeValue: Security Droid
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 463ee6a2954998a4ab49b2317596cfbe, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d0054004600700046005e005d005000
+        inited: 1
+        fakeValue: VS/PlayerDroid
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005100430053005b0046005a001100660041005a005f0051004600
+        inited: 1
+        fakeValue: Newborn Runner
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 62a92c1496211ce4f8c02f108f00c50d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 7d007a0072001e006400580055004800510046007a005400430056005b0043005a00
+        inited: 1
+        fakeValue: INF/PlayerNewborn
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005d005a005a004d00140077005d0055004700470058005700
+        inited: 1
+        fakeValue: Tinky Classic
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: f84b09ac483adbb4cb2c5a4211afdb07, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d005400460060005d005f005f004d007b005d005000
+        inited: 1
+        fakeValue: VS/PlayerTinkyOld
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d00590044005e004700400051004300
+        inited: 1
+        fakeValue: Imposter
+        fakeValueActive: 1
+      image: {fileID: 21300000, guid: 1b294c6e5f9392c4ba826d78ad0e218d, type: 2}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 620067001b006100580055004d00540046007d00590041005b004700400054004600
+        inited: 1
+        fakeValue: VS/PlayerImposter
+        fakeValueActive: 1
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 73005d0042005400140063005100500044005b005a0011001c00670051005d0052001d00
+      inited: 1
+      fakeValue: Give Weapon (Self)
+      fakeValueActive: 1
+    teamID: 0
+    tagName:
+    isPlayAs: 0
+    isWeapon: 1
+    hostOnly: 0
+    isMusic: 0
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6c007d006c00
+        inited: 1
+        fakeValue: XIX
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6c007d006c0011007d007d00
+        inited: 1
+        fakeValue: XIX II
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c005b00430040004d00
+        inited: 1
+        fakeValue: Shorty
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 62006e0002000000
+        inited: 1
+        fakeValue: VZ61
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 00000000140072005b005900560050004000
+        inited: 1
+        fakeValue: 44 Combat
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 790077006700090003000400
+        inited: 1
+        fakeValue: MCS870
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7900640001007f00
+        inited: 1
+        fakeValue: MP5N
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79000000040070000700
+        inited: 1
+        fakeValue: M40A3
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75007f007900
+        inited: 1
+        fakeValue: AKM
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79000600000008001900670055004600
+        inited: 1
+        fakeValue: M249-Saw
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660064007300
+        inited: 1
+        fakeValue: RPG
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79007f0005000700
+        inited: 1
+        fakeValue: MK16
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7f005a005d0057005100
+        inited: 1
+        fakeValue: Knife
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7900550057005900510040005100
+        inited: 1
+        fakeValue: Machete
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 72005d004600540055004c005100
+        inited: 1
+        fakeValue: Fireaxe
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7f005500400050005a005500
+        inited: 1
+        fakeValue: Katana
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 77005c00550058005a00470055004600
+        inited: 1
+        fakeValue: Chainsaw
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 73005d0042005400140063005100500044005b005a0011001c00750058005d0019006400580050004d005100460042001d00
+      inited: 1
+      fakeValue: Give Weapon (All-Players)
+      fakeValueActive: 1
+    teamID: 0
+    tagName:
+    isPlayAs: 0
+    isWeapon: 1
+    hostOnly: 1
+    isMusic: 0
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6c007d006c00
+        inited: 1
+        fakeValue: XIX
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6c007d006c0011007d007d00
+        inited: 1
+        fakeValue: XIX II
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 67005c005b00430040004d00
+        inited: 1
+        fakeValue: Shorty
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 62006e0002000000
+        inited: 1
+        fakeValue: VZ61
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 00000000140072005b005900560050004000
+        inited: 1
+        fakeValue: 44 Combat
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 790077006700090003000400
+        inited: 1
+        fakeValue: MCS870
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7900640001007f00
+        inited: 1
+        fakeValue: MP5N
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79000000040070000700
+        inited: 1
+        fakeValue: M40A3
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 75007f007900
+        inited: 1
+        fakeValue: AKM
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79000600000008001900670055004600
+        inited: 1
+        fakeValue: M249-Saw
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660064007300
+        inited: 1
+        fakeValue: RPG
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 79007f0005000700
+        inited: 1
+        fakeValue: MK16
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7f005a005d0057005100
+        inited: 1
+        fakeValue: Knife
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7900550057005900510040005100
+        inited: 1
+        fakeValue: Machete
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 72005d004600540055004c005100
+        inited: 1
+        fakeValue: Fireaxe
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7f005500400050005a005500
+        inited: 1
+        fakeValue: Katana
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 77005c00550058005a00470055004600
+        inited: 1
+        fakeValue: Chainsaw
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue:
+        inited: 1
+        fakeValue:
+        fakeValueActive: 1
+  - catagoryName:
+      currentCryptoKey: 4441
+      hiddenValue: 77005c0055005f0053005100140062005b0041005a00550040004600550052005f00
+      inited: 1
+      fakeValue: Change Soundtrack
+      fakeValueActive: 1
+    teamID: 0
+    tagName:
+    isPlayAs: 0
+    isWeapon: 0
+    hostOnly: 1
+    isMusic: 1
+    options:
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7900410040005400
+        inited: 1
+        fakeValue: Mute
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 19000500
+        inited: 1
+        fakeValue: -1
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660041005a0011007500430055004800
+        inited: 1
+        fakeValue: Run Away
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0500
+        inited: 1
+        fakeValue: 1
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 660041005a001100750043005500480014007d005a0042004000460041005c0051005a00400050005800
+        inited: 1
+        fakeValue: Run Away Instrumental
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0600
+        inited: 1
+        fakeValue: 2
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7b005900510056005500
+        inited: 1
+        fakeValue: Omega
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0700
+        inited: 1
+        fakeValue: 3
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7b00590051005600550014007d005f004700400046004400590051005a00450055005800
+        inited: 1
+        fakeValue: Omega Instrumental
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0000
+        inited: 1
+        fakeValue: 4
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 750014007a005400430014007b004300500051004600
+        inited: 1
+        fakeValue: A New Order
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0100
+        inited: 1
+        fakeValue: 5
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005b005b001100720055004600110073005b005a005400
+        inited: 1
+        fakeValue: Too Far Gone
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0200
+        inited: 1
+        fakeValue: 6
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 670041004400540046005d005b004300140077005b005f00520058005d0052004000
+        inited: 1
+        fakeValue: Superior Conflict
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0300
+        inited: 1
+        fakeValue: 7
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c0051001100670041004400540046005d005b0043005d0040004d00
+        inited: 1
+        fakeValue: The Superiority
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0c00
+        inited: 1
+        fakeValue: 8
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7a005b001400740047005700550041005100
+        inited: 1
+        fakeValue: No Escape
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 0d00
+        inited: 1
+        fakeValue: 9
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c005100110077005c00550042005100
+        inited: 1
+        fakeValue: The Chase
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000400
+        inited: 1
+        fakeValue: 10
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 6000460055005f00470052005b00430059005500400058005b005a00
+        inited: 1
+        fakeValue: Transformation
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000500
+        inited: 1
+        fakeValue: 11
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 600043005b00110067005d00500054004700
+        inited: 1
+        fakeValue: Two Sides
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000600
+        inited: 1
+        fakeValue: 12
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7500140067004500460055005a0056005100140064005d00550057005100
+        inited: 1
+        fakeValue: A Strange Place
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000700
+        inited: 1
+        fakeValue: 13
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7000510055005500140060004600540051004700
+        inited: 1
+        fakeValue: Dead Trees
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000000
+        inited: 1
+        fakeValue: 14
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 60005c005100110067005d00580054005a00400014006100550040005c00
+        inited: 1
+        fakeValue: The Silent Path
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000100
+        inited: 1
+        fakeValue: 15
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d004000140066005500470014001100140073005b005e005000
+        inited: 1
+        fakeValue: It Was   Good
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000200
+        inited: 1
+        fakeValue: 16
+        fakeValueActive: 1
+    - optionName:
+        currentCryptoKey: 4441
+        hiddenValue: 7d00590044005e004700400051004300
+        inited: 1
+        fakeValue: Imposter
+        fakeValueActive: 1
+      image: {fileID: 0}
+      resourcePath:
+        currentCryptoKey: 4441
+        hiddenValue: 05000300
+        inited: 1
+        fakeValue: 17
+        fakeValueActive: 1
+  DJADLMIODIP: {fileID: 224590344540256026}
+  PNNLFADKJBE: {fileID: 224467550590180940}
+  IOOPOMDFPNP: {fileID: 224782832364925217}
+  EJODGAKPNAP: {fileID: 114467898876484880}
+  JHKLMKGHCHI: {fileID: 114100766889389547}
+  KKFJMCAJCNO: {fileID: 114205036568485860}
+  APLPFKBHOMC: {fileID: 114873622877951409}
+  OHGDHCBJPGF: {fileID: 224930230382835589}
+  DDBPOGGOEEP:
+  - {fileID: 224639439516187446}
+  - {fileID: 224264679165520064}
+  - {fileID: 224164778753594479}
+  - {fileID: 224491540046422602}
+  IEMAGILOGBD: 0
+  GKLNMLFGIMD:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 0
+  PHAIPPKAOIF:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 0
+  FDJNPJAAAOP:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 0
+  JDADGHLIGPO:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 0
+  OJJGLCMBAPM:
+  - {fileID: 8300000, guid: 82b6b7e80f10dab4b9737e12526b9f43, type: 3}
+  - {fileID: 8300000, guid: f73d1a31bc54be5479c8a92b2f20a84c, type: 3}
+  - {fileID: 8300000, guid: fde4aa12264e71b4eb298a8b6d48eb80, type: 3}
+  - {fileID: 8300000, guid: e9140b794ee38b44694e5ad6758a223f, type: 3}
+  - {fileID: 8300000, guid: 8104f42ad2f5c694388eb53d3bec4a47, type: 3}
+  - {fileID: 8300000, guid: 24deabb106e484d459d28d550f0ec898, type: 3}
+  - {fileID: 8300000, guid: dfcae7e09a266b94697423858e8a7e69, type: 3}
+  - {fileID: 8300000, guid: e2e43c2759180f347b200c1cf9008f1d, type: 3}
+  - {fileID: 8300000, guid: e9abf6df3bff3d347be8d62bfeba9b79, type: 3}
+  - {fileID: 8300000, guid: 703611d0f286d9c47817d7eee65c4513, type: 3}
+  - {fileID: 8300000, guid: 0a3a8bc926879a045a7802bd36a8ad8c, type: 3}
+  - {fileID: 8300000, guid: 4eda422614ba94d449f94b57a1e77c06, type: 3}
+  - {fileID: 8300000, guid: e7ce7e14fa0030041ac5d3eefcca4693, type: 3}
+  - {fileID: 8300000, guid: f9774659b6f212845b816e1b9839b03b, type: 3}
+  - {fileID: 8300000, guid: 0531f808b4dfc94428445a2fb1a3dcc9, type: 3}
+  - {fileID: 8300000, guid: 67ec08c2067fb344983ee0813baa374b, type: 3}
+  - {fileID: 8300000, guid: ba8119332b80f5d4dad23319405a9f9c, type: 3}
+--- !u!114 &114978661202313050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1574653457895932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b1ccf087e505a46b97d83c5154ef47, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 1
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114540097311440327}
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!1 &1959433312147353
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224999201316168129}
+  - component: {fileID: 223152873366272448}
+  - component: {fileID: 114384567666462918}
+  - component: {fileID: 114281806750974710}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224999201316168129
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959433312147353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 224427035777626169}
+  - {fileID: 224782832364925217}
+  - {fileID: 4230054114418989}
+  m_Father: {fileID: 4916813668619102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &223152873366272448
+Canvas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959433312147353}
+  m_Enabled: 1
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &114384567666462918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959433312147353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114281806750974710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1959433312147353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &1721762302679140
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224427035777626169}
+  - component: {fileID: 222787821075058982}
+  - component: {fileID: 114838890405697101}
+  - component: {fileID: 114002766688453587}
+  - component: {fileID: 114517678842586246}
+  m_Layer: 0
+  m_Name: Hint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224427035777626169
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721762302679140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 50, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224999201316168129}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 0, y: -100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222787821075058982
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721762302679140}
+--- !u!114 &114838890405697101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721762302679140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PRESS <color=red>'TAB'</color> TO OPEN THE SANDBOX CONSOLE.
+--- !u!114 &114002766688453587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721762302679140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &114517678842586246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721762302679140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27daac5481f4a274ea401bcddc067162, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  DOCOEIDKDED: 5
+--- !u!1 &1411240345731922
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224782832364925217}
+  - component: {fileID: 222825227159494339}
+  - component: {fileID: 114024292036898969}
+  m_Layer: 5
+  m_Name: Console
+  m_TagString: Menu
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224782832364925217
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411240345731922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224395264763035953}
+  - {fileID: 224160375083909731}
+  - {fileID: 224706989537871344}
+  - {fileID: 224025361415131191}
+  - {fileID: 224930230382835589}
+  m_Father: {fileID: 224999201316168129}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222825227159494339
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411240345731922}
+--- !u!114 &114024292036898969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411240345731922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 0.5019608}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1686748979677983
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224395264763035953}
+  - component: {fileID: 222657736053940753}
+  - component: {fileID: 114057403156180225}
+  m_Layer: 5
+  m_Name: Top_Bar_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224395264763035953
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686748979677983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224683525638802924}
+  - {fileID: 224164778753594479}
+  m_Father: {fileID: 224782832364925217}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 40}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &222657736053940753
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686748979677983}
+--- !u!114 &114057403156180225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1686748979677983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1375961699141111
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224683525638802924}
+  - component: {fileID: 222007266538217716}
+  - component: {fileID: 114296162128458628}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224683525638802924
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375961699141111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20, y: -20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224395264763035953}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 20, y: 0}
+  m_SizeDelta: {x: 200, y: 0}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222007266538217716
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375961699141111}
+--- !u!114 &114296162128458628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375961699141111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2df03166634bac5479e0bb687961600e, type: 3}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 41
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Sandbox - Console
+--- !u!1 &1224601970603437
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224164778753594479}
+  - component: {fileID: 114205036568485860}
+  m_Layer: 5
+  m_Name: Toggle_Allow_Players
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224164778753594479
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1224601970603437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224731982670970889}
+  - {fileID: 224903546218505877}
+  m_Father: {fileID: 224395264763035953}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 230, y: 50}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!114 &114205036568485860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1224601970603437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114256881376705029}
+  toggleTransition: 1
+  graphic: {fileID: 114545390866595558}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsOn: 0
+--- !u!1 &1912610807455492
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224731982670970889}
+  - component: {fileID: 222341768170292712}
+  - component: {fileID: 114256881376705029}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224731982670970889
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912610807455492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -220, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224932117965745537}
+  m_Father: {fileID: 224164778753594479}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222341768170292712
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912610807455492}
+--- !u!114 &114256881376705029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912610807455492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1970488615727858
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224932117965745537}
+  - component: {fileID: 222264970176347556}
+  - component: {fileID: 114545390866595558}
+  m_Layer: 5
+  m_Name: Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224932117965745537
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970488615727858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224731982670970889}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222264970176347556
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970488615727858}
+--- !u!114 &114545390866595558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970488615727858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: d2e10b6fbf38a8b4a9983dbbb5317f33, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1510343880680957
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224903546218505877}
+  - component: {fileID: 222877376010384289}
+  - component: {fileID: 114708439466245438}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224903546218505877
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1510343880680957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -106, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224164778753594479}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 9, y: 1}
+  m_SizeDelta: {x: -28, y: -6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222877376010384289
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1510343880680957}
+--- !u!114 &114708439466245438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1510343880680957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Enable Console For Other Players?
+--- !u!1 &1651879926309559
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224160375083909731}
+  - component: {fileID: 222492271002181397}
+  - component: {fileID: 114038583887531765}
+  m_Layer: 5
+  m_Name: Catagories_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224160375083909731
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651879926309559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224460422186101596}
+  m_Father: {fileID: 224782832364925217}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 200, y: -40}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222492271002181397
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651879926309559}
+--- !u!114 &114038583887531765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651879926309559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1406217942134685
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224460422186101596}
+  - component: {fileID: 222519757644720912}
+  - component: {fileID: 114929407657669098}
+  - component: {fileID: 114356290075401473}
+  m_Layer: 5
+  m_Name: Catagories_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224460422186101596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406217942134685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224590344540256026}
+  m_Father: {fileID: 224160375083909731}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 20, y: 0}
+  m_SizeDelta: {x: -40, y: -40}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222519757644720912
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406217942134685}
+--- !u!114 &114929407657669098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406217942134685}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7941176, g: 0.7941176, b: 0.7941176, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114356290075401473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406217942134685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 1
+  m_CellSize: {x: 160, y: 50}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!1 &1406404208439631
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224590344540256026}
+  - component: {fileID: 222734556898274632}
+  - component: {fileID: 114165054242842077}
+  - component: {fileID: 114240990789201581}
+  - component: {fileID: 114387518183169474}
+  m_Layer: 5
+  m_Name: Catagory_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224590344540256026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406404208439631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -40, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224829387082467600}
+  m_Father: {fileID: 224460422186101596}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &222734556898274632
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406404208439631}
+--- !u!114 &114165054242842077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406404208439631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114240990789201581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406404208439631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114165054242842077}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114387518183169474}
+        m_MethodName: SendToVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114387518183169474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406404208439631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642c6d341e0a112408309407f74d42f2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  CAFMGIMOEAJ: {fileID: 114540097311440327}
+  BEDAEKIALPP: 0
+  GJDDICPDKJA: 0
+  JOGBJLGCJKA: 0
+--- !u!1 &1145187877216902
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224829387082467600}
+  - component: {fileID: 222479721017632298}
+  - component: {fileID: 114139686506445963}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224829387082467600
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145187877216902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80, y: -25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224590344540256026}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222479721017632298
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145187877216902}
+--- !u!114 &114139686506445963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145187877216902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 8
+    m_MaxSize: 15
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Catagory Name
+--- !u!1 &1018667788882567
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224706989537871344}
+  - component: {fileID: 222035157772835841}
+  - component: {fileID: 114300869004075470}
+  m_Layer: 5
+  m_Name: Options_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224706989537871344
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018667788882567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224769643587998474}
+  m_Father: {fileID: 224782832364925217}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -200, y: 0}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!222 &222035157772835841
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018667788882567}
+--- !u!114 &114300869004075470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018667788882567}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1013437584291723
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224769643587998474}
+  - component: {fileID: 222237665432101696}
+  - component: {fileID: 114529656876069727}
+  - component: {fileID: 114546966853421805}
+  - component: {fileID: 114491767475640584}
+  m_Layer: 5
+  m_Name: Options_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224769643587998474
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013437584291723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: -5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224467550590180940}
+  m_Father: {fileID: 224706989537871344}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -5}
+  m_SizeDelta: {x: -40, y: -110}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222237665432101696
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013437584291723}
+--- !u!114 &114529656876069727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013437584291723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114546966853421805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013437584291723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 70, y: 70}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114491767475640584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013437584291723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_ShowMaskGraphic: 0
+--- !u!1 &1368709408786302
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224467550590180940}
+  - component: {fileID: 222558727271660642}
+  - component: {fileID: 114369964463635951}
+  - component: {fileID: 114843167869082577}
+  - component: {fileID: 114623228948900265}
+  m_Layer: 5
+  m_Name: Button_Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224467550590180940
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368709408786302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 120, y: -55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224677076077837023}
+  - {fileID: 224823216993032948}
+  m_Father: {fileID: 224769643587998474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &222558727271660642
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368709408786302}
+--- !u!114 &114369964463635951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368709408786302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114843167869082577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368709408786302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114369964463635951}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114623228948900265}
+        m_MethodName: SendToVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114623228948900265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368709408786302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642c6d341e0a112408309407f74d42f2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  CAFMGIMOEAJ: {fileID: 114540097311440327}
+  BEDAEKIALPP: 0
+  GJDDICPDKJA: 1
+  JOGBJLGCJKA: 0
+--- !u!1 &1961463984371641
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224677076077837023}
+  - component: {fileID: 222879493123121991}
+  - component: {fileID: 114350048200167208}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224677076077837023
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961463984371641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40, y: -40.000015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224467550590180940}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.5258789E-05}
+  m_SizeDelta: {x: -6, y: -6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222879493123121991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961463984371641}
+--- !u!114 &114350048200167208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961463984371641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1404528024369740
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224823216993032948}
+  - component: {fileID: 222913302032755808}
+  - component: {fileID: 114915680255710708}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224823216993032948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404528024369740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40, y: -78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224467550590180940}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2}
+  m_SizeDelta: {x: -4, y: -4}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &222913302032755808
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404528024369740}
+--- !u!114 &114915680255710708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1404528024369740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 5
+    m_MaxSize: 14
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!1 &1215086009449823
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224025361415131191}
+  - component: {fileID: 222421476126811571}
+  - component: {fileID: 114117136465202267}
+  m_Layer: 5
+  m_Name: Bottom_Bar_UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224025361415131191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215086009449823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224491540046422602}
+  - {fileID: 224639439516187446}
+  - {fileID: 224972512312263025}
+  - {fileID: 224264679165520064}
+  - {fileID: 224945767218853239}
+  m_Father: {fileID: 224782832364925217}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 100, y: 0}
+  m_SizeDelta: {x: -200, y: 40}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &222421476126811571
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215086009449823}
+--- !u!114 &114117136465202267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215086009449823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1476656156751505
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224491540046422602}
+  - component: {fileID: 114873622877951409}
+  m_Layer: 5
+  m_Name: FriendlyFire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224491540046422602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1476656156751505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -200, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224625828531457990}
+  - {fileID: 224770989058892130}
+  m_Father: {fileID: 224025361415131191}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -100, y: 0}
+  m_SizeDelta: {x: 110, y: 50}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!114 &114873622877951409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1476656156751505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114662991757420470}
+  toggleTransition: 1
+  graphic: {fileID: 114666640612009106}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsOn: 0
+--- !u!1 &1673929410528684
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224625828531457990}
+  - component: {fileID: 222575906763417370}
+  - component: {fileID: 114662991757420470}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224625828531457990
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673929410528684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224945697622819828}
+  m_Father: {fileID: 224491540046422602}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222575906763417370
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673929410528684}
+--- !u!114 &114662991757420470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673929410528684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1890476246615839
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224945697622819828}
+  - component: {fileID: 222506612338129565}
+  - component: {fileID: 114666640612009106}
+  m_Layer: 5
+  m_Name: Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224945697622819828
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890476246615839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224625828531457990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222506612338129565
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890476246615839}
+--- !u!114 &114666640612009106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890476246615839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: d2e10b6fbf38a8b4a9983dbbb5317f33, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1047718071546110
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224770989058892130}
+  - component: {fileID: 222820970440017042}
+  - component: {fileID: 114528117026313617}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224770989058892130
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047718071546110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224491540046422602}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 9, y: 1}
+  m_SizeDelta: {x: -28, y: -6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222820970440017042
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047718071546110}
+--- !u!114 &114528117026313617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047718071546110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Friendly Fire
+--- !u!1 &1258369990617250
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224639439516187446}
+  - component: {fileID: 114100766889389547}
+  m_Layer: 5
+  m_Name: DisableAI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224639439516187446
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258369990617250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224994756769297085}
+  - {fileID: 224734308516912513}
+  m_Father: {fileID: 224025361415131191}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 110, y: 50}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!114 &114100766889389547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1258369990617250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114430152475359847}
+  toggleTransition: 1
+  graphic: {fileID: 114935270123292467}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_IsOn: 0
+--- !u!1 &1236256242857838
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224994756769297085}
+  - component: {fileID: 222036219227203268}
+  - component: {fileID: 114430152475359847}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224994756769297085
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236256242857838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224671184727329655}
+  m_Father: {fileID: 224639439516187446}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222036219227203268
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236256242857838}
+--- !u!114 &114430152475359847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236256242857838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1968772221725160
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224671184727329655}
+  - component: {fileID: 222442936982032540}
+  - component: {fileID: 114935270123292467}
+  m_Layer: 5
+  m_Name: Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224671184727329655
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968772221725160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224994756769297085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222442936982032540
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968772221725160}
+--- !u!114 &114935270123292467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968772221725160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: d2e10b6fbf38a8b4a9983dbbb5317f33, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1991065131170614
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224734308516912513}
+  - component: {fileID: 222070505260989382}
+  - component: {fileID: 114402463050046823}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224734308516912513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991065131170614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224639439516187446}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 9, y: 1}
+  m_SizeDelta: {x: -28, y: -6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222070505260989382
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991065131170614}
+--- !u!114 &114402463050046823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991065131170614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Disable AI
+--- !u!1 &1293531023991387
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224972512312263025}
+  - component: {fileID: 222870070037606365}
+  - component: {fileID: 114847217085292044}
+  - component: {fileID: 114036011598847657}
+  m_Layer: 5
+  m_Name: KillMyAI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224972512312263025
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293531023991387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224685682146689587}
+  m_Father: {fileID: 224025361415131191}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 5, y: 0}
+  m_SizeDelta: {x: 120, y: 30}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222870070037606365
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293531023991387}
+--- !u!114 &114847217085292044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293531023991387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114036011598847657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1293531023991387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114847217085292044}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114540097311440327}
+        m_MethodName: DestroyAll
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!1 &1708982862488395
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224685682146689587}
+  - component: {fileID: 222956552845470561}
+  - component: {fileID: 114053376277177718}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224685682146689587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708982862488395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 60, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224972512312263025}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222956552845470561
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708982862488395}
+--- !u!114 &114053376277177718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708982862488395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 12
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Remove My AI
+--- !u!1 &1382057838958992
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224264679165520064}
+  - component: {fileID: 222015888977233209}
+  - component: {fileID: 114156608597254319}
+  - component: {fileID: 114057725821879506}
+  m_Layer: 5
+  m_Name: KillAllAI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224264679165520064
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382057838958992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 230, y: 19.999998, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 224396152798484695}
+  m_Father: {fileID: 224025361415131191}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 130, y: -1.9073486E-06}
+  m_SizeDelta: {x: 120, y: 30}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222015888977233209
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382057838958992}
+--- !u!114 &114156608597254319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382057838958992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114057725821879506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382057838958992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114156608597254319}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114540097311440327}
+        m_MethodName: DestroyAll
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!1 &1161123430086981
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224396152798484695}
+  - component: {fileID: 222970527784407196}
+  - component: {fileID: 114110232772509498}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224396152798484695
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161123430086981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 60, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224264679165520064}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222970527784407196
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161123430086981}
+--- !u!114 &114110232772509498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161123430086981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 6
+    m_MaxSize: 12
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Remove All AI
+--- !u!1 &1077538917826872
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224945767218853239}
+  - component: {fileID: 222292302566087673}
+  - component: {fileID: 114467898876484880}
+  m_Layer: 5
+  m_Name: TotalAIText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224945767218853239
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077538917826872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 360, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224025361415131191}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 260, y: 0}
+  m_SizeDelta: {x: 120, y: 30}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222292302566087673
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077538917826872}
+--- !u!114 &114467898876484880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077538917826872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Total AI: 0/0'
+--- !u!1 &1046056103279911
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224930230382835589}
+  - component: {fileID: 222222840590873508}
+  - component: {fileID: 114639199109963013}
+  m_Layer: 5
+  m_Name: Console_Disabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224930230382835589
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1046056103279911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224517127091224088}
+  - {fileID: 224065447939506367}
+  m_Father: {fileID: 224782832364925217}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222222840590873508
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1046056103279911}
+--- !u!114 &114639199109963013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1046056103279911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.627451}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!1 &1703043956677465
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224517127091224088}
+  - component: {fileID: 222335427048106465}
+  - component: {fileID: 114543430849567148}
+  - component: {fileID: 114392311623842072}
+  - component: {fileID: 114743041593828624}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224517127091224088
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703043956677465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224930230382835589}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222335427048106465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703043956677465}
+--- !u!114 &114543430849567148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703043956677465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 20
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: The host has disabled the console for other players.
+--- !u!114 &114392311623842072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703043956677465}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &114743041593828624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703043956677465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!1 &1937088808500552
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224065447939506367}
+  - component: {fileID: 222293160916375882}
+  - component: {fileID: 114984751236526856}
+  - component: {fileID: 114530776824738416}
+  - component: {fileID: 114708670424414793}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &224065447939506367
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937088808500552}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.0517578E-05, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224930230382835589}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 3.0517578E-05, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222293160916375882
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937088808500552}
+--- !u!114 &114984751236526856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937088808500552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 20
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: The Console has been disabled by the host.
+--- !u!114 &114530776824738416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937088808500552}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &114708670424414793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937088808500552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!1 &1490151542248823
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4230054114418989}
+  - component: {fileID: 114308512713154789}
+  - component: {fileID: 114148018416776387}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230054114418989
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1490151542248823}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -400, y: -250.22028, z: 0}
+  m_LocalScale: {x: 1.174743, y: 1.174743, z: 1.174743}
+  m_Children: []
+  m_Father: {fileID: 224999201316168129}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114308512713154789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1490151542248823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!114 &114148018416776387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1490151542248823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0

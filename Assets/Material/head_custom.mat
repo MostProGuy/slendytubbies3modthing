@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: head_custom
+  m_Shader: {fileID: 4800000, guid: eecc84962ad7d9841a0734168c8e4dae, type: 3}
+  m_ShaderKeywords: _UVFREE_BUMPED _UVFREE_LOCAL
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BottomBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomEmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomMainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.75, y: 0.75}
+        m_Offset: {x: 0.12, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.55}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5f0a6b0f8a74acd4f946491f2ef8bda2, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0.06, y: -0.05}
+    - _TopBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopEmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopMainTex:
+        m_Texture: {fileID: 2800000, guid: 5f0a6b0f8a74acd4f946491f2ef8bda2, type: 3}
+        m_Scale: {x: 1.66, y: 1.35}
+        m_Offset: {x: 0.69, y: 0.17}
+    m_Floats:
+    - _BottomBumpScale: 1
+    - _BottomEmissionMultiplier: 0
+    - _BottomMultiplier: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.2
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeFade: 0.75714284
+    - _Emission: 0
+    - _EmissionMultiplier: 0
+    - _EmissionScaleUI: 0
+    - _FurLength: 0.01
+    - _Gloss: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.1
+    - _GlossyReflections: 1
+    - _HairColoring: 0.1
+    - _HairHardness: 1
+    - _HairShading: 0.1
+    - _HairThinness: 5
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflMinLevel: 0
+    - _Reflection: 0
+    - _RimMultiplier: 0
+    - _RimPower: 4
+    - _Shininess: 10.000001
+    - _SkinAlpha: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TexPower: 10
+    - _TopBumpScale: 1
+    - _TopEmissionMultiplier: 0
+    - _TopMultiplier: 8
+    - _TriplanarSpace: 0
+    - _UVFreeBottom: 1
+    - _UVFreeBumped: 1
+    - _UVFreeLocal: 1
+    - _UVFreeRim: 0
+    - _UVFreeVertexColor: 0
+    - _UVSec: 0
+    - _UsingSpecGlossMap: 0
+    - _VertexColorStrength: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BonusAmbient: {r: 0, g: 0, b: 0, a: 1}
+    - _BottomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BottomEmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
+    - _ForceGlobal: {r: 0, g: 0, b: 0, a: 0}
+    - _ForceLocal: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEmissionColor: {r: 0, g: 0, b: 0, a: 1}

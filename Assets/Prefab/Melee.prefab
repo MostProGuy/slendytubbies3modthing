@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1963262811335923}
+  m_IsPrefabParent: 1
+--- !u!1 &1963262811335923
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4076226640347778}
+  - component: {fileID: 114212853482608948}
+  m_Layer: 4
+  m_Name: Melee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4076226640347778
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963262811335923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 562.12756, y: 12.101043, z: 629.71423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114212853482608948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963262811335923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972548c6470cc58488e2aec9922ff7c9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  DBJLMBHEMDG: 20
+  CJBLOMOMPDL: 0.125
+  LNBAOJFOGDF: 25
+  LNPGAHBMKHH: 10
+  KGPOOIIMJFD: 1
+  OHJBLLKDFHO:
+  FLEAONNBLOP: 1
+  BLGPGOLJHKB:
+  - {fileID: 1453531336226162, guid: 158e7d4659e4ed04895b3087f17e485f, type: 2}
+  - {fileID: 1803409052159506, guid: 3f15118b548365b419891c87a15dc13e, type: 2}
+  - {fileID: 1958406652602943, guid: 099bdbfdcd56e4041aada31797e06cd8, type: 2}

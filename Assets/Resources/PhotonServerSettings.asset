@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e65a7f6c5e0e394d9bfd46242d6ee4a, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier:
+  AppID: 7884d31e-bc7e-4262-9bf0-c802e60f1a92
+  VoiceAppID:
+  ChatAppID:
+  HostType: 2
+  PreferredRegion: 0
+  EnabledRegions: -1
+  Protocol: 0
+  ServerAddress: 45.76.140.111
+  ServerPort: 5055
+  VoiceServerPort: 5055
+  JoinLobby: 1
+  EnableLobbyStatistics: 0
+  PunLogging: 0
+  NetworkLogging: 1
+  RunInBackground: 1
+  RpcList:
+  - Marco
+  - Polo
+  - TaggedPlayer
+  - SetPosition
+  - Chat
+  - InstantiateRpc
+  - OnAwakeRPC
+  - DestroyRpc
+  - SendChatMessage
+  - DoDamage
+  - DoSwapTeams
+  - SyncWeaponsRPC
+  - networkAddMessage
+  - Attack
+  - SyncWave
+  - RespawnPlayers
+  - GameOver
+  - Win
+  - SyncCount
+  - SyncNPCCount
+  - WaveComplete
+  - NewWave
+  - SyncTime
+  - SyncShopID
+  - RangedAttack
+  - GiveCurrency
+  - Detected
+  - Infect
+  - InfectedWin
+  - Teleport
+  - SpecialAttack
+  - PickupItemInit
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - SendGUI
+  - SendOnce
+  - SendUpdate
+  - AnotherRPCMethod
+  - MyRPCMethod
+  - SyncAll
+  - KickPlayer
+  - KickPlayer2
+  DisableAutoOpenWizard: 0
