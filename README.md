@@ -10,5 +10,5 @@ Projeto/mod baseado em uma decompilação de Slendytubbies 3 V1.295 que achei na
 
 ## Creditos
 
-- Zeoworks (por fazer esse jogo)
+- ZeoWorks (por fazer esse jogo)
 - Uns mano ai e eu
